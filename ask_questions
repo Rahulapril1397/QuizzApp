@@ -1,0 +1,66 @@
+class ObjectiveTest(Quiz):
+    """
+        This is doc string.
+    """
+    OBJQUES = Quiz.obj_ques()
+    
+    def __init__(self):
+       self.
+
+    def user_answer(self):
+            ANSW = []
+            for INPUT in range(0,1):
+            ANSW.append(input("Your Answer: "))
+
+    def obj_ques(self):
+        """
+            This is doc string.
+        """   
+        for row in range(0, 10):
+            QUES = df.lioc[row, "Questions"]
+            OPTA = df.loc[row, "A"]
+            OPTB = df.loc[row, "A"]
+            OPTC = df.loc[row, "A"]
+            OPTD = df.loc[row, "A"]
+
+            print("Question: ", QUES)
+            print("Opt A:", OPTA)
+            print("Opt B:", OPTB)
+            print("Opt C:", OPTC)
+            print("Opt D:", OPTD)
+
+            user_answer()
+ 
+class ObjQues(Quiz):
+    """
+        This is doc string.
+    """
+    OBJQUES = Quiz.obj_ques()
+    
+    def __init__(self):
+       self.
+
+    def user_answer(self):
+            ANSW = []
+            for INPUT in range(0,1):
+            ANSW.append(input("Your Answer: "))
+
+    def obj_ques(self):
+        """
+            This is doc string.
+        """   
+        for row in range(0, 10):
+            QUES = df.lioc[row, "Questions"]
+            OPTA = df.loc[row, "A"]
+            OPTB = df.loc[row, "A"]
+            OPTC = df.loc[row, "A"]
+            OPTD = df.loc[row, "A"]
+
+            print("Question: ", QUES)
+            print("Opt A:", OPTA)
+            print("Opt B:", OPTB)
+            print("Opt C:", OPTC)
+            print("Opt D:", OPTD)
+
+            user_answer()
+ 
